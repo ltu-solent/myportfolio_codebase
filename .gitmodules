@@ -1,0 +1,4 @@
+
+[submodule "src/mahara"]
+	path = src/mahara
+	url = https://github.com/MaharaProject/mahara.git
