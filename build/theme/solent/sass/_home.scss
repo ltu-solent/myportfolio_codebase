@@ -1,0 +1,24 @@
+.homeinfo-container {
+    .homeinfo-inner {
+        margin-bottom: 10px;
+    }
+    .grid-item {
+        background-color: #eee;
+        border-bottom: 3px solid lightgrey;
+        margin: 5px;
+        height: 100%;
+        .grid-top {
+            background-repeat: no-repeat;
+            min-height: 160px;
+            background-size: cover;
+            position:relative;
+            overflow: hidden;
+        }
+        
+        .grid-bottom {
+            background-color: $gray-100;
+            padding: 0 10px 0 10px;
+        }
+        font-size: .9rem;
+    }
+}

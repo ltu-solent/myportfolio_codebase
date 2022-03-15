@@ -1,0 +1,30 @@
+// Forcing the cell to be as wide as TH
+.task-status {
+  white-space: nowrap;
+  text-align: center;
+}
+
+// Plan blocks
+.list-group .task-item {
+    .plan-task-icon {
+        vertical-align: top;
+        padding-top: $spacing-xs;
+        z-index: 3;
+        position: relative;
+        cursor: pointer;
+    }
+    .plan-task-heading {
+        margin-top: -1.5rem;
+        margin-left: 1.5rem; // 24px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+    .plan-task-detail {
+        margin-left: 1.5rem; // 24px;
+        > * {
+            margin: $spacing-base 0 0 0;
+        }
+    }
+}

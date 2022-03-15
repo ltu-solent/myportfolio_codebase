@@ -1,0 +1,15 @@
+/// Bootstrap variables
+//
+// These are bootstrap variables that you can customize. There are more variables
+// that you can add to this file to customize. To see what variables you can add,
+// look at file: 'htdocs/theme/raw/sass/lib/bootstrap4/_variables.scss'
+
+// Do not add non bootstrap variables here, put them in custom-variables.scss instead
+
+//
+// Variables
+// --------------------------------------------------
+
+$link-color:                        $theme-primary-color;
+$link-hover-color:                  scale-color($theme-primary-color, $lightness: -40%);
+$link-decoration:                   none;

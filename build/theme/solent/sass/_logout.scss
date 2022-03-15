@@ -1,0 +1,13 @@
+.loggedout.js {
+    background-color: #3a3b3f;
+    .main-content {
+        background-image: url(../images/login.png);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        padding-bottom: 30px;
+        h1, h4 {
+            color: $white;
+            border-bottom: 1px solid rgba($color: $white, $alpha: .3);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+dropzonejs
+-----
+
+Website: https://github.com/dropzone/dropzone/releases
+Version: 5.7.6
+
+Note: To override any css place the changes in ./theme/raw/sass/components/_dropzone-previews.scss
+
+Modifications:
+
+- keep the .min stuff, especially dropzone.min.js

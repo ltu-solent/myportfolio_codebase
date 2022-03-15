@@ -1,0 +1,25 @@
+// Generic custom css (anything longer than a screen view should have its own component file)
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/OpenSansRegular.eot) format('embedded-opentype'),
+         url(fonts/OpenSansRegular.woff) format('woff'),
+         url(fonts/OpenSansRegular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-Semi";
+    src: url(fonts/OpenSans-Semibold.eot) format('embedded-opentype'),
+         url(fonts/OpenSans-Semibold.woff) format('woff'),
+         url(fonts/OpenSans-Semibold.ttf) format('truetype');
+}
+
+body {
+    font-family: OpenSans, "Trebuchet MS";
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .panel-secondary>.panel-heading, .table td h3,
+.collapsible legend h3, .collapsible legend h4, .panel-heading, input[type=search]{
+    font-family: "OpenSans-Semi";
+}
