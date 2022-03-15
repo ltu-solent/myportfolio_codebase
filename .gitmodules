@@ -8,3 +8,6 @@
 [submodule "src/mahara-theme-solent"]
 	path = src/mahara-theme-solent
 	url = git@github.com:ltu-solent/mahara-theme-solent.git
+[submodule "src/mahara-local-lang-en"]
+	path = src/mahara-local-lang-en
+	url = git@github.com:ltu-solent/mahara-local-lang-en.utf8.git
