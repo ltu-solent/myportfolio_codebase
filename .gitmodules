@@ -5,3 +5,6 @@
 [submodule "src/mahara-artefact_cpds"]
 	path = src/mahara-artefact_cpds
 	url = git@github.com:ltu-solent/mahara-artefact_cpds.git
+[submodule "src/mahara-theme-solent"]
+	path = src/mahara-theme-solent
+	url = git@github.com:ltu-solent/mahara-theme-solent.git
