@@ -2,3 +2,6 @@
 [submodule "src/mahara"]
 	path = src/mahara
 	url = https://github.com/MaharaProject/mahara.git
+[submodule "src/mahara-artefact_cpds"]
+	path = src/mahara-artefact_cpds
+	url = git@github.com:ltu-solent/mahara-artefact_cpds.git
