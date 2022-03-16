@@ -8,3 +8,4 @@ build:
 	@rsync -avz src/mahara-artefact_cpds/. build/.
 	@mkdir -p build/local/lang/en.utf8 && rsync -avz src/mahara-local-lang-en/. build/local/lang/en.utf8/.
 	@mkdir -p build/theme/solent && rsync -avz src/mahara-theme-solent/. build/theme/solent/.
+	@rsync -avz src/chrome-php build/lib
