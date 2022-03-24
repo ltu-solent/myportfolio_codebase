@@ -13,4 +13,3 @@ $string['resumesavefailed'] = 'Failed to update your CV';
 $string['resumeofuser'] = 'CV of %s';
 $string['coverletter'] = 'Personal Profile';
 $string['myresume'] = 'My CV';
-?>

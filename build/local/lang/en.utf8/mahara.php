@@ -31,4 +31,4 @@ defined('INTERNAL') || die();
 
 $string['logout'] = 'Logout';
 $string['createyourresume'] = 'Create your <a href="%s"><br>CV</a>';
-?>
+

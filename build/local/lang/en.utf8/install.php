@@ -31,4 +31,3 @@ $string['loggedouthomedefaultcontent'] = '<h1>Welcome to Mahara</h1>
 
 <p>For more information you can read <a href="about.php">About</a> Mahara or alternatively please feel free to <a href="contact.php">Contact Us</a>.</p>';
 
-?>
