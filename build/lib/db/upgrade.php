@@ -2492,9 +2492,13 @@ function xmldb_core_upgrade($oldversion=0) {
             $limit = 100;
             $total = count($records);
             foreach ($records as $id) {
-                $view = new View($id);
-                if (!$view->is_themeable()) {
-                    execute_sql("UPDATE {view} SET theme = NULL WHERE id = ?", array($id));
+                try {
+                    $view = new View($id);
+                    if (!$view->is_themeable()) {
+                        execute_sql("UPDATE {view} SET theme = NULL WHERE id = ?", array($id));
+                    }
+                } catch (Exception $ex) {
+                    log_debug($ex->getMessage());
                 }
                 $count++;
                 if (($count % $limit) == 0 || $count == $total) {
